@@ -7,5 +7,9 @@ interface IconProps {
   onClick?: () => void
 }
 
-type FCProps = { className?: string }
+type FCProps = {
+  className?: string
+  value?: string | null
+  onChange?: (url: string | null | undefined) => void
+}
 type FC<T = {}> = React.FC<Readonly<T & FCProps>>

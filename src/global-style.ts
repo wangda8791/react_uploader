@@ -24,7 +24,13 @@ export const GlobalStyle = createGlobalStyle`
 
   #root {
     display: flex;
-    min-height: 100vh;
-    background: ${Colors.BG3};
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: ${Colors.PureWhite};
+  }
+
+  .hidden {
+    display: none;
   }
 `

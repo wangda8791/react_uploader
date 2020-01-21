@@ -39,7 +39,9 @@ export enum Colors {
 export enum FontSizes {
   small = 'font-size: 10px',
   medium = 'font-size: 12px',
-  large = 'font-size: 14px'
+  large = 'font-size: 14px',
+  larger = 'font-size: 16px',
+  xlarge = 'font-size: 20px'
 }
 
 export enum UI {
