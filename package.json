@@ -1,6 +1,6 @@
 {
   "license": "UNLICENSED",
-  "devDependencies": {
+  "dependencies": {
     "@arkweid/lefthook": "^0.7.0",
     "@types/react": "16.9.17",
     "@types/react-dom": "16.9.4",
